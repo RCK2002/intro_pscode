@@ -2,3 +2,16 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+SET random number (1-10) to a variable
+SET guesses to 3
+SET variable to check if user has guessed correctly
+
+PRINT "PICK A NUMBER 1-10"
+SET loop to run as long as guesses are being input until the user either runs out of guesses or the correct number is guessed
+	IF user input is equal to the correct number
+		PRINT "CONGRATULATIONS!"
+
+	IF user input is not equal to the correct number
+		PRINT "GUESS AGAIN"
+			IF user still has guesses PRINT "TRY AGAIN"
+			IF user does not have guesses print "YOU LOSE."

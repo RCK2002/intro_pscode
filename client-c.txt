@@ -2,3 +2,10 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+SET ProdCount= 2
+
+IF product scanned +2 to ProdCount
+	PRINT current total for ProdCount
+	IF ProdCount= < 50
+		PRINT "CONTAINER IS FULL, PLEASE GRAB A NEW ONE"
+		RETURN ProdCount=2

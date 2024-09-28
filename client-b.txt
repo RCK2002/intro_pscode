@@ -2,3 +2,24 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+start employee at (0,0)
+get coordinates from user input (x,y)
+
+
+
+
+
+IF X is greater than 0
+	MOVE user east X
+
+IF X is less than 0
+	MOVE user west X
+
+IF y is greater than 0
+	MOVE user north Y
+
+IF y is less than 0
+	MOVE user south Y
+
+IF coordinates match (x,y)
+	PRINT "YOU HAVE ARRIVED AT YOUR DESTINATION."
